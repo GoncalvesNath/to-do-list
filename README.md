@@ -26,7 +26,7 @@ Aplicação de exemplo "To-Do List" construída com React + Vite. Fornece CRUD b
    ```
 2. Entre na pasta do projeto:
    ```bash
-   cd c:\Users\Nath\Documents\Estudos\to-do-list
+   cd c: <--insira as informações da pasta onde seu arquivo será armazenado-->
    ```
 3. Instale dependências:
    ```bash
