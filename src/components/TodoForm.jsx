@@ -5,12 +5,12 @@ export const TodoForm = ({addTodo}) => {
   const handleSubmit = (e) => {
     e.preventDefault()
     addTodo(value)
-    setValue('')
+    setValue('') //Limpa o campo após adicionar a tarefa
   }
   return (
     <form className='TodoForm' onSubmit={handleSubmit}>
       <input type='text' className='todo-input' 
-        value={value}
+        value={value} // atualiza
         placeholder='Qual tarefa deseja criar?' 
         onChange={(e) => setValue(e.target.value)}/>
       <button type='submit' className='todo-btn'>Adicionar tarefa</button>
